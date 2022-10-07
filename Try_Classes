@@ -1,0 +1,17 @@
+class Port:
+  def __init__(self, type, year_of_foundation, country, status, season):
+    """
+    Объект "Порт"
+    :param type: тип порта
+    :param year_of_foundation: год основания
+    :param country: страна
+    :param status: статус
+    :param season: сезон использования
+    
+    self.type = type
+    self.year_of_foundation = year_of_foundation
+    self.country = country
+    self.status = status
+    self.season = season
+  
+  def 
