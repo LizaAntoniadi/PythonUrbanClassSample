@@ -39,4 +39,5 @@ class Port:
     """
     ...
     
-    
+class Coffee:
+  def __init__(self, stregth, acid, 
