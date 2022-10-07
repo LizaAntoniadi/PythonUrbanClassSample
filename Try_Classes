@@ -14,4 +14,29 @@ class Port:
     self.status = status
     self.season = season
   
-  def 
+  def is_non_freezing(self) -> bool:
+    """
+    Функция, которая проеверяет является ли определенный порт незамерзающим
+    
+    :return: является ли порт незамерзающим?
+    """
+    ...
+    
+  def select_seaports(self) -> str:
+    """
+    Функция, которая выбирает из списка все морские порты
+    
+    :return: морские порты:
+    """
+    ...
+  
+  def number_of_river_ports(self, year) -> int
+    """
+    Функция, которая определяет количество речных портов в заданном году
+    
+    :param year: заданный год
+    :return: количество портов
+    """
+    ...
+    
+    
