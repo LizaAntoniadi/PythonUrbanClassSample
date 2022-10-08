@@ -78,3 +78,44 @@ class Coffee_drink:
     :return: кол-во чашек в день
     """
     ...
+    
+    class Meteorite:
+  def __init__(self, weight, type, name, rate_of_fall, chemical_content):
+    """
+    Объект "Метеорит"
+    :param weight: масса
+    :param type: тип
+    :param name: имя
+    :param rate_of_fall: скорость падения
+    :param chemical_content: химический состав
+    
+    self.weight = weight
+    self.type = type
+    self.name = name
+    self.rate_of_fall = rate_of_fall
+    self.chemical_content = chemical_content
+    
+   def list_of_named(self) -> str:
+    """
+    Функция, которая выдаёт список только тех метеоритов, которые имеют имя
+    
+    :return: метеориты с именем:
+    """
+    ...
+    
+   def probability_of_catastrophe(self) -> float:
+    """
+    Функция, которая считает вероятность падения метеорита на Землю
+   
+    :return: вероятность падения на Землю =
+    """
+    ...
+    
+   def group_of_meteorite(self) -> str:
+    """
+    Функция, которая определяет группу метеорита в соответствии с химическим составом
+   
+    :return: группа метеорита
+    """
+    ...
+    
