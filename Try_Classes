@@ -39,5 +39,42 @@ class Port:
     """
     ...
     
-class Coffee:
-  def __init__(self, stregth, acid, 
+class Coffee_drink:
+  def __init__(self, stregth, acid, amount_of_milk, type_of_syrup)
+     """
+    Объект "Кофейный напиток"
+    :param stregth: крепость
+    :param acid: кислотность
+    :param amount_of_milk: количество молока
+    :param type_of_syrup: тип сиропа
+    
+    self.stregth = stregth
+    self.acid = acid
+    self.amount_of_milk = amount_of_milk
+    self.type_of_syrup = type_of_syrup
+    
+  def low_acidity(self) -> str:
+    """
+    Функция, которая находит кофейные напитки с низкой кислотностью
+    
+    :return: кофейные напитки с низкой кислотностью
+    """
+    ...
+    
+   def adding_milk(self, milk) -> str:
+    """
+    Функция, которая находит кофейные напитки с определенным кол-вом молока
+    
+    :param milk: кол-во молока
+    :return: кофейные напитки с заданным кол-вом молока
+    """
+    ...
+    
+     def coffee_limit(self, amount_of_strength) -> int:
+    """
+    Функция, которая определяет кол-во чашек кофейного напитка, которые можно употребить в день в зависимости от выбранной крепости кофе
+    
+    :param amount_of_strength: кол-во единиц крепости кофейного напитка
+    :return: кол-во чашек в день
+    """
+    ...
